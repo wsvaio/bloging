@@ -3,23 +3,27 @@
 layout: home
 
 hero:
-  name: "WSVAIO"
-  text: "我的个人博客"
-  tagline: My great project tagline
+  name: WSVAIO
+  text: 我的个人博客
+  tagline: 一些在工作学习中产生的笔记或文章
+  image: /logo.jpg
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 阅读文章
+      link: /articles/第一篇文章.md
+    # - theme: alt
+    #   text: 查看
+    #   link: /markdown-examples
+
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 💼
+    title: 工作
+    details: 前端开发
+  - icon: 🏙️
+    title: 城市
+    details: 浙江绍兴
+  - icon: ❤️
+    title: 爱好
+    details: 玩游戏，撸代码
 ---
-
