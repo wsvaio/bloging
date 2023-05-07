@@ -19,8 +19,10 @@ export default defineConfig({
         text: '文章',
         items: [
           { text: '第一篇文章', link: '/articles/第一篇文章.md' },
+          { text: '从零开始搭建后台开发框架项目记实', link: '/articles/从零开始搭建后台开发框架项目记实.md' },
         ]
-      }
+      },
+
     ],
 
     socialLinks: [

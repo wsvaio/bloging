@@ -3,7 +3,8 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:build:github": "vitepress build --base /bloging/",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "upload:wsvaio.cn": "scp -r ./.vitepress/dist/* root@wsvaio.cn:/app/nginx/bloging"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.65"

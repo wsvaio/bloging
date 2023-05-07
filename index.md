@@ -13,7 +13,7 @@ hero:
       link: /articles/第一篇文章.md
     # - theme: alt
     #   text: 查看
-    #   link: /markdown-examples
+    #   link: /articles/第一篇文章.md
 
 
 features:
